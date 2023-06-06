@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
+    //メニューの親要素を指定
     public GameObject menuParent;
+    //プレイヤーの位置を指定
     private Transform playerTransform;
-
 
     private bool isMenuVisible = false;
 
