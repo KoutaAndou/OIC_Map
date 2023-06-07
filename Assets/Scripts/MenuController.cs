@@ -1,13 +1,17 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MenuController : MonoBehaviour
 {
-    //メニューの親要素を指定
+    // メニューの親要素を指定
     public GameObject menuParent;
-    //プレイヤーの位置を指定
+
+    // プレイヤーの位置を指定
     private Transform playerTransform;
 
     private bool isMenuVisible = false;
+    private Vector3 menuPosition;
+    private Quaternion menuRotation;
 
     void Start()
     {
@@ -21,20 +25,23 @@ public class MenuController : MonoBehaviour
         {
             // ボタンが押されたらメニューの表示/非表示をトグルする
             isMenuVisible = !isMenuVisible;
+
+            if (isMenuVisible)
+            {
+                // メニューが表示されるタイミングでプレイヤーの位置と回転を取得する
+                menuPosition = playerTransform.position;
+                menuRotation = playerTransform.rotation;
+            }
+
             menuParent.SetActive(isMenuVisible);
         }
 
         // メニューオブジェクトをプレイヤーの位置に配置する
-        if (playerTransform != null)
+        if (isMenuVisible && playerTransform != null)
         {
-            // プレイヤーの位置にメニューを配置する
-            menuParent.transform.position = playerTransform.position;
-
-            // プレイヤーの視線の向きを取得する
-            Vector3 playerForward = playerTransform.forward;
-
-            // メニューの向きをプレイヤーの視線の向きに合わせる
-            menuParent.transform.rotation = Quaternion.LookRotation(playerForward);
+            // メニューの位置と回転を固定した値に設定する
+            menuParent.transform.position = menuPosition;
+            menuParent.transform.rotation = menuRotation;
         }
     }
 }
