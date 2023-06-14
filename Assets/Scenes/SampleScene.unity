@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,51 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &40919614
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 40919616}
-  - component: {fileID: 40919615}
-  m_Layer: 0
-  m_Name: ButtonManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &40919615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40919614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerController: {fileID: 336254810}
---- !u!4 &40919616
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40919614}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.366987, y: 0.24046516, z: -20.853243}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &46826591
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,9 +209,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 46826596}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_4F, Assembly-CSharp
+        m_MethodName: OnClick_4F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -312,10 +267,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 46826591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: afbd1e781a87dde45831261d6bdeb10f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_4F: {x: 9, y: 0, z: 8}
 --- !u!1 &174935286
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,9 +359,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 174935291}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_5F, Assembly-CSharp
+        m_MethodName: OnClick_5F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -460,10 +417,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 174935286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 26e99f931eb4bba4abbcb2edb68907d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_5F: {x: 4, y: 0, z: 5}
 --- !u!1001 &223974226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -949,9 +908,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 522844874}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_9F, Assembly-CSharp
+        m_MethodName: OnClick_9F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1007,10 +966,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 522844869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: c7b0f73ce509f944f878d44d90dfbdf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_9F: {x: 12, y: 0, z: 3}
 --- !u!1 &593681782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,9 +1058,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 593681787}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_6F, Assembly-CSharp
+        m_MethodName: OnClick_6F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1155,10 +1116,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 593681782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a56f7c4833b6b746a30dec0861d1b4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_6F: {x: 12, y: 0, z: 4}
 --- !u!1001 &617159022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1172,7 +1135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e983ce83c676fa841853270bd7600d53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.49
+      value: 5.78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e983ce83c676fa841853270bd7600d53, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1180,7 +1143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e983ce83c676fa841853270bd7600d53, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.01
+      value: -4.82
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e983ce83c676fa841853270bd7600d53, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1462,9 +1425,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 811646348}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_3F, Assembly-CSharp
+        m_MethodName: OnClick_3F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1520,10 +1483,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 811646343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 945af1648ef852d48ba989e6127475b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_3F: {x: 5, y: 0, z: 1}
 --- !u!1 &831885743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,9 +1575,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 831885748}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_7F, Assembly-CSharp
+        m_MethodName: OnClick_7F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1668,10 +1633,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 831885743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 60b75b0f1b0b9fb46bbaba22c3a2b67c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_7F: {x: 66, y: 0, z: 4}
 --- !u!1001 &835371566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2519,9 +2486,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1436836564}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_1F, Assembly-CSharp
+        m_MethodName: OnClick_1F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2577,10 +2544,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1436836559}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: ebf198fe17c30214f9e18209944433a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_1F: {x: 1, y: 0, z: 4}
 --- !u!1 &1556259951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,9 +2636,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1556259956}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_8F, Assembly-CSharp
+        m_MethodName: OnClick_8F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2725,10 +2694,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556259951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 6492cf82735575441997e447379e9ac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_8F: {x: 11, y: 0, z: 45}
 --- !u!1001 &1619499297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2848,7 +2819,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620721909}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.49, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3214,9 +3185,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1645825189}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
+        m_TargetAssemblyTypeName: Teleport_2F, Assembly-CSharp
+        m_MethodName: OnClick_2F
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3272,10 +3243,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1645825184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48d415a0a4ceac44badab2239c1457d1, type: 3}
+  m_Script: {fileID: 11500000, guid: e50f6546f5a7be9438090d83e570fa51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 336254810}
+  cameraRig: {fileID: 1865539767}
+  Position_2F: {x: 4, y: 0, z: 5}
 --- !u!1 &1708915090
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,7 +3326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708915090}
   m_LocalRotation: {x: -0, y: 0.6963097, z: -0, w: 0.7177415}
-  m_LocalPosition: {x: -0.08065653, y: 1.174, z: -1.2811135}
+  m_LocalPosition: {x: 6.189344, y: 1.174, z: -1.0911134}
   m_LocalScale: {x: 0.062374998, y: 0.062374998, z: 0.062374998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3748,7 +3721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.159
+      value: 1.147
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3781,6 +3754,10 @@ PrefabInstance:
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: _trackingOriginType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
@@ -3815,3 +3792,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   sortOrder: 0
+--- !u!114 &1865539767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400020, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+  m_PrefabInstance: {fileID: 1865539759}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865539762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
