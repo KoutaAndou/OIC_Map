@@ -39,7 +39,7 @@ public class MenuController : MonoBehaviour
         if (isMenuVisible && playerTransform != null)
         {
             // メニューの位置と回転を固定した値に設定する
-            menuParent.transform.position = menuPosition + new Vector3(0,1.5f,0);
+            menuParent.transform.position = menuPosition + new Vector3(0,1.2f,0);
             menuParent.transform.rotation = menuRotation;
         }
     }
