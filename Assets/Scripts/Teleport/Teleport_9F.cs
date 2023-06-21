@@ -8,6 +8,9 @@ public class Teleport_9F : MonoBehaviour
     public OVRCameraRig cameraRig;
     public Vector3 Position_9F;
 
+    public GameObject menuParent;
+    public LaserPointer laserPointer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,10 @@ public class Teleport_9F : MonoBehaviour
         playerController.transform.position = Position_9F + offset;
 
         playerController.GetComponent<CharacterController>().enabled = true;
+
+        //ここからレーザーポインターとメニュー削除の処理
+        laserPointer.GetComponent<LineRenderer>().enabled = false;
+        menuParent.SetActive(false);
     }
 
 }
