@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: dec6276039800324ab28f68a26c60e45
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_material
+    second: {fileID: 2100000, guid: e8be3b399bf322f4aa9b79f5c57043a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_material
+    second: {fileID: 2100000, guid: f1d9b39f3553747498a22312196615ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_material
+    second: {fileID: 2100000, guid: 0a307fe846bd7d9428daa828bc77c63a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_material
+    second: {fileID: 2100000, guid: 121df0192621c0c41b4e0fd3f8f7472d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalStainlessSteelBrushedElongated005_2K
+    second: {fileID: 2100000, guid: b5f50dd6d60f1a443bdccad5f36fbf07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Handle_material
+    second: {fileID: 2100000, guid: c504fbd8b6d58b541bf5a19e53019543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sill_material
+    second: {fileID: 2100000, guid: f987919d7c4a3d54bb54dca1d8b7b55e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_material
+    second: {fileID: 2100000, guid: 22f905643b8461640841fe7c8e909bc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_material
+    second: {fileID: 2100000, guid: 74e4c7d1af704f641ae6959dba543029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodFlooring044_2K.001
+    second: {fileID: 2100000, guid: 933c13aa000f09b4199a5b1e446ceb0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_light.009
+    second: {fileID: 2100000, guid: 56242d5cc5965b14aa90382a6efc618c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_light.011
+    second: {fileID: 2100000, guid: 9346489bf2053614ea3a8adb096ce837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_light.012
+    second: {fileID: 2100000, guid: 5f327c5c6256b5c408c27670ab650377, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_light.013
+    second: {fileID: 2100000, guid: eb5bce642e9b09542ab0e66e3903fd56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_light.014
+    second: {fileID: 2100000, guid: 4a315fa3f393d834cb74b01245308f1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: venashi.005
+    second: {fileID: 2100000, guid: 69f4351ac5a93ab40bf1d4e9e574ebad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: venashi.006
+    second: {fileID: 2100000, guid: c6d25ead858d1844ba5d5ba82720a287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: venashi.007
+    second: {fileID: 2100000, guid: d9284056e63534b459bc360d4a175aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: venashi.008
+    second: {fileID: 2100000, guid: 48c34c937c128f04aaf479ad67a5f957, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: venashi.009
+    second: {fileID: 2100000, guid: 764f9eb3ea4c9e44ab3c6d7e8236e21b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_bottom.005
+    second: {fileID: 2100000, guid: 801e77938ed89ab45b1ee21904699368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_bottom.006
+    second: {fileID: 2100000, guid: 508bc93497be05c41900bbc2797327f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_bottom.007
+    second: {fileID: 2100000, guid: bbeace131249ab44a9ec48a7a3782f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_bottom.008
+    second: {fileID: 2100000, guid: 9c407bea70c96a346bbcb7bae7a504ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_bottom.009
+    second: {fileID: 2100000, guid: 611a164f01a2f474d862c7155f76c63f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_front_glass.009
+    second: {fileID: 2100000, guid: 8e95e3cec53e2434ca60b44acb96848b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_front_glass.011
+    second: {fileID: 2100000, guid: 5aadc0f0cee0ffd4bbe3498c3ce96350, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_front_glass.012
+    second: {fileID: 2100000, guid: 5ede14fa9d8ca5c449da1743a1319322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_front_glass.013
+    second: {fileID: 2100000, guid: bb4b6e0188d3384459e8a38de7cf7ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_front_glass.014
+    second: {fileID: 2100000, guid: e19c03e4ad3d867428f3c396de924430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_glass2.009
+    second: {fileID: 2100000, guid: 69df389c0b5d86b4a86c96d9cd1947ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_glass2.011
+    second: {fileID: 2100000, guid: 175de7842756c384f813350cffe7bee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_glass2.012
+    second: {fileID: 2100000, guid: dda2e29ddc9a3f347844eae2320625e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_glass2.013
+    second: {fileID: 2100000, guid: 76a70f3901208d84c9c8287b6c1fe5ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_glass2.014
+    second: {fileID: 2100000, guid: 3423b07082801544daa8399ea519b045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main.009
+    second: {fileID: 2100000, guid: ae436c582887aed4bbc3847ed75c3fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main.011
+    second: {fileID: 2100000, guid: 799f6ff3fc5f6014e8f7997a2cc691be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main.012
+    second: {fileID: 2100000, guid: 1488cff9846479e469eb31c665e0814a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main.013
+    second: {fileID: 2100000, guid: 2871b70438a68d04d845f614cdf04136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main.014
+    second: {fileID: 2100000, guid: 3ee23d3314b325a4f8e486f384d77d9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_glass.009
+    second: {fileID: 2100000, guid: 2d85656ad158ec34e96c8ffa4cef6dda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_glass.011
+    second: {fileID: 2100000, guid: 693fde51e0b344843a47b8092fdffc9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_glass.012
+    second: {fileID: 2100000, guid: a01d71669ccd7304a9915a2850050138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_glass.013
+    second: {fileID: 2100000, guid: 2610138909e944c4587820315de0fa4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_glass.014
+    second: {fileID: 2100000, guid: a38f191386516e84cb20f41a68ce1b5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_toridashi.009
+    second: {fileID: 2100000, guid: 600b7591f3f15bf448dd98111846414f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_toridashi.011
+    second: {fileID: 2100000, guid: 63ca653091be56f47b37300fa0d46926, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_toridashi.012
+    second: {fileID: 2100000, guid: 86df2db35cecd1940a4da581a52f15a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_toridashi.013
+    second: {fileID: 2100000, guid: 2336bb886c551e042b201e0bf8b919ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vend_main_toridashi.014
+    second: {fileID: 2100000, guid: 6da08a1a6df12754c90056c786436706, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u5E8A"
+    second: {fileID: 2800000, guid: 88bd8b33117c4704cbe65be8c6321866, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -24,11 +24,9 @@ public class Teleport_7F : MonoBehaviour
     }
     public void OnClick_7F()
     {
-        Vector3 offset;
         playerController.GetComponent<CharacterController>().enabled = false;
 
-        offset = playerController.transform.position - cameraRig.transform.position;
-        playerController.transform.position = Position_7F + offset;
+        playerController.transform.position = Position_7F;
 
         playerController.GetComponent<CharacterController>().enabled = true;
 

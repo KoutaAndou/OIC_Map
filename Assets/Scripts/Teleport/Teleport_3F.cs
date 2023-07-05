@@ -24,11 +24,9 @@ public class Teleport_3F : MonoBehaviour
     }
     public void OnClick_3F()
     {
-        Vector3 offset;
         playerController.GetComponent<CharacterController>().enabled = false;
 
-        offset = playerController.transform.position - cameraRig.transform.position;
-        playerController.transform.position = Position_3F + offset;
+        playerController.transform.position = Position_3F;
 
         playerController.GetComponent<CharacterController>().enabled = true;
 

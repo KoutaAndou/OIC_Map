@@ -24,11 +24,9 @@ public class Teleport_9F : MonoBehaviour
     }
     public void OnClick_9F()
     {
-        Vector3 offset;
         playerController.GetComponent<CharacterController>().enabled = false;
 
-        offset = playerController.transform.position - cameraRig.transform.position;
-        playerController.transform.position = Position_9F + offset;
+        playerController.transform.position = Position_9F;
 
         playerController.GetComponent<CharacterController>().enabled = true;
 
