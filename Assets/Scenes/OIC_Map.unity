@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 46826593}
   - component: {fileID: 46826596}
   m_Layer: 6
-  m_Name: Button_4F
+  m_Name: Button_8B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,8 +209,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 46826596}
-        m_TargetAssemblyTypeName: Teleport_4F, Assembly-CSharp
-        m_MethodName: OnClick_4F
+        m_TargetAssemblyTypeName: Teleport_8B, Assembly-CSharp
+        m_MethodName: OnClick_8B
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -267,12 +267,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 46826591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afbd1e781a87dde45831261d6bdeb10f, type: 3}
+  m_Script: {fileID: 11500000, guid: e50f6546f5a7be9438090d83e570fa51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 336254810}
   cameraRig: {fileID: 1865539767}
-  Position_4F: {x: 9, y: 2, z: 8}
+  Position_8B: {x: -31.639, y: 1.245, z: -11.835}
   menuParent: {fileID: 1620721909}
   laserPointer: {fileID: 1326869324}
 --- !u!1001 &59177930
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 174935288}
   - component: {fileID: 174935291}
   m_Layer: 6
-  m_Name: Button_5F
+  m_Name: Button_Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -666,8 +666,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 174935291}
-        m_TargetAssemblyTypeName: Teleport_5F, Assembly-CSharp
-        m_MethodName: OnClick_5F
+        m_TargetAssemblyTypeName: Teleport_Hall, Assembly-CSharp
+        m_MethodName: OnClick_StudentHall
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 336254810}
   cameraRig: {fileID: 1865539767}
-  Position_5F: {x: 4, y: 2, z: 5}
+  Position_StudentHall: {x: -12.777, y: 0.997, z: 6.92}
   menuParent: {fileID: 1620721909}
   laserPointer: {fileID: 1326869324}
 --- !u!1001 &223974226
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 5F
+  m_text: Student Hall
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &401129296
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 9F
+  m_text: ComingSoon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &521423397
@@ -1260,9 +1260,8 @@ GameObject:
   - component: {fileID: 522844873}
   - component: {fileID: 522844872}
   - component: {fileID: 522844871}
-  - component: {fileID: 522844874}
   m_Layer: 6
-  m_Name: Button_9F
+  m_Name: Button_9F_ComingSoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1332,19 +1331,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 522844872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 522844874}
-        m_TargetAssemblyTypeName: Teleport_9F, Assembly-CSharp
-        m_MethodName: OnClick_9F
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &522844872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1383,23 +1370,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522844869}
   m_CullTransparentMesh: 1
---- !u!114 &522844874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522844869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7b0f73ce509f944f878d44d90dfbdf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerController: {fileID: 336254810}
-  cameraRig: {fileID: 1865539767}
-  Position_9F: {x: 12, y: 2, z: 3}
-  menuParent: {fileID: 1620721909}
-  laserPointer: {fileID: 1326869324}
 --- !u!1 &571069752 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8343248219658952724, guid: dec6276039800324ab28f68a26c60e45, type: 3}
@@ -1431,9 +1401,8 @@ GameObject:
   - component: {fileID: 593681786}
   - component: {fileID: 593681785}
   - component: {fileID: 593681784}
-  - component: {fileID: 593681787}
   m_Layer: 6
-  m_Name: Button_6F
+  m_Name: Button_6F_ComingSoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1503,19 +1472,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 593681785}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 593681787}
-        m_TargetAssemblyTypeName: Teleport_6F, Assembly-CSharp
-        m_MethodName: OnClick_6F
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &593681785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1554,23 +1511,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593681782}
   m_CullTransparentMesh: 1
---- !u!114 &593681787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593681782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a56f7c4833b6b746a30dec0861d1b4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerController: {fileID: 336254810}
-  cameraRig: {fileID: 1865539767}
-  Position_6F: {x: 12, y: 2, z: 4}
-  menuParent: {fileID: 1620721909}
-  laserPointer: {fileID: 1326869324}
 --- !u!20 &685434893 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2015248, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
@@ -1743,9 +1683,8 @@ GameObject:
   - component: {fileID: 811646347}
   - component: {fileID: 811646346}
   - component: {fileID: 811646345}
-  - component: {fileID: 811646348}
   m_Layer: 6
-  m_Name: Button_3F
+  m_Name: Button_3F_ComingSoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1815,19 +1754,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 811646346}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 811646348}
-        m_TargetAssemblyTypeName: Teleport_3F, Assembly-CSharp
-        m_MethodName: OnClick_3F
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &811646346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,23 +1793,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811646343}
   m_CullTransparentMesh: 1
---- !u!114 &811646348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811646343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 945af1648ef852d48ba989e6127475b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerController: {fileID: 336254810}
-  cameraRig: {fileID: 1865539767}
-  Position_3F: {x: 5, y: 2, z: 1}
-  menuParent: {fileID: 1620721909}
-  laserPointer: {fileID: 1326869324}
 --- !u!1 &831885743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,7 +1807,7 @@ GameObject:
   - component: {fileID: 831885745}
   - component: {fileID: 831885748}
   m_Layer: 6
-  m_Name: Button_7F
+  m_Name: Button_8C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1969,8 +1879,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 831885748}
-        m_TargetAssemblyTypeName: Teleport_7F, Assembly-CSharp
-        m_MethodName: OnClick_7F
+        m_TargetAssemblyTypeName: Teleport_8C, Assembly-CSharp
+        m_MethodName: OnClick_8C
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2027,12 +1937,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 831885743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b75b0f1b0b9fb46bbaba22c3a2b67c, type: 3}
+  m_Script: {fileID: 11500000, guid: 945af1648ef852d48ba989e6127475b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 336254810}
   cameraRig: {fileID: 1865539767}
-  Position_7F: {x: 66, y: 2, z: 4}
+  Position_8C: {x: -31.9, y: 1.245, z: -14.981}
   menuParent: {fileID: 1620721909}
   laserPointer: {fileID: 1326869324}
 --- !u!1 &883416599
@@ -2093,7 +2003,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2F
+  m_text: 'OIC
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -2159,7 +2071,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &883416602
@@ -2247,7 +2159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4F
+  m_text: 8B
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -2313,7 +2225,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &930506413
@@ -2693,7 +2605,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3F
+  m_text: ComingSoon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -2759,7 +2671,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1351238047
@@ -2784,7 +2696,7 @@ GameObject:
   - component: {fileID: 1436836561}
   - component: {fileID: 1436836564}
   m_Layer: 6
-  m_Name: Button_1F
+  m_Name: Button_8A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2856,8 +2768,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1436836564}
-        m_TargetAssemblyTypeName: Teleport_1F, Assembly-CSharp
-        m_MethodName: OnClick_1F
+        m_TargetAssemblyTypeName: Teleport_8A, Assembly-CSharp
+        m_MethodName: OnClick_8A
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2919,7 +2831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 336254810}
   cameraRig: {fileID: 1865539767}
-  Position_1F: {x: 1, y: 2, z: 4}
+  Position_8A: {x: -28.428, y: 1.245, z: -3.641}
   menuParent: {fileID: 1620721909}
   laserPointer: {fileID: 1326869324}
 --- !u!1 &1553540214 stripped
@@ -3033,7 +2945,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3090,7 +3002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 336254810}
   cameraRig: {fileID: 1865539767}
-  Position_8F: {x: 11, y: 2, z: 45}
+  Position_8F: {x: -45.018, y: 1.245, z: -16.49}
   menuParent: {fileID: 1620721909}
   laserPointer: {fileID: 1326869324}
 --- !u!1 &1620721909
@@ -3183,9 +3095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1F
-
-'
+  m_text: 8A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -3251,7 +3161,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1620928481
@@ -3320,7 +3230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 7F
+  m_text: 8C
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -3386,7 +3296,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1639620754
@@ -3411,7 +3321,7 @@ GameObject:
   - component: {fileID: 1645825186}
   - component: {fileID: 1645825189}
   m_Layer: 6
-  m_Name: Button_2F
+  m_Name: Button_OIC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3483,8 +3393,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1645825189}
-        m_TargetAssemblyTypeName: Teleport_2F, Assembly-CSharp
-        m_MethodName: OnClick_2F
+        m_TargetAssemblyTypeName: Teleport_OIC, Assembly-CSharp
+        m_MethodName: OnClick_OIC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3541,12 +3451,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1645825184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e50f6546f5a7be9438090d83e570fa51, type: 3}
+  m_Script: {fileID: 11500000, guid: afbd1e781a87dde45831261d6bdeb10f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 336254810}
   cameraRig: {fileID: 1865539767}
-  Position_2F: {x: 4, y: 2, z: 5}
+  Position_OIC: {x: 13.76, y: 0.997, z: -5.01}
   menuParent: {fileID: 1620721909}
   laserPointer: {fileID: 1326869324}
 --- !u!1 &1737532514 stripped
@@ -3692,7 +3602,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1740084866
@@ -3761,7 +3671,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 6F
+  m_text: ComingSoon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -3827,7 +3737,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1783299471
@@ -3985,15 +3895,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 13.76
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.956
+      value: 0.997
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4038,6 +3948,10 @@ PrefabInstance:
     - target: {fileID: 14300000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Height
       value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
@@ -4140,6 +4054,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b0cf9215dc8c34797f3aeec56d00e7, type: 3}
+--- !u!1 &2102095679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 47b0cf9215dc8c34797f3aeec56d00e7, type: 3}
+  m_PrefabInstance: {fileID: 2102095678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2102095680
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102095679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7487783926980810981, guid: 47b0cf9215dc8c34797f3aeec56d00e7, type: 3}
 --- !u!1 &2126667883 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6264821226950544960, guid: dec6276039800324ab28f68a26c60e45, type: 3}

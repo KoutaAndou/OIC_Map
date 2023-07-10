@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Teleport_1F : MonoBehaviour
+public class Teleport_OIC : MonoBehaviour
 {
     public OVRPlayerController playerController;
     public OVRCameraRig cameraRig;
-    public Vector3 Position_1F;
+    public Vector3 Position_OIC;
 
     public GameObject menuParent;
     public LaserPointer laserPointer;
@@ -22,12 +22,11 @@ public class Teleport_1F : MonoBehaviour
     {
         
     }
-
-    public void OnClick_1F()
+    public void OnClick_OIC()
     {
         playerController.GetComponent<CharacterController>().enabled = false;
 
-        playerController.transform.position = Position_1F;
+        playerController.transform.position = Position_OIC;
 
         playerController.GetComponent<CharacterController>().enabled = true;
 
